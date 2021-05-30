@@ -1,0 +1,104 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - Base64 (1.1.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - HappyDNS (0.3.17)
+  - IQKeyboardManager (4.0.13)
+  - JLLogEncoding (0.0.3)
+  - JWT (3.0.0-beta.12):
+    - Base64 (~> 1.1.2)
+  - Masonry (0.6.4)
+  - MJExtension (3.0.17)
+  - PLPlayerKit (3.4.5):
+    - PLPlayerKit/iphoneos (= 3.4.5)
+  - PLPlayerKit/iphoneos (3.4.5)
+  - PLShortVideoKit (3.2.4):
+    - PLShortVideoKit/ex-libMuseProcessor (= 3.2.4)
+    - PLShortVideoKit/libMuseProcessor (= 3.2.4)
+    - Qiniu (= 8.2.0)
+  - PLShortVideoKit/ex-libMuseProcessor (3.2.4):
+    - Qiniu (= 8.2.0)
+  - PLShortVideoKit/libMuseProcessor (3.2.4):
+    - Qiniu (= 8.2.0)
+  - Qiniu (8.2.0):
+    - HappyDNS (~> 0.3.17)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SVProgressHUD (2.2.5)
+  - Zhugeio (3.2.5):
+    - Zhugeio/Zhugeio (= 3.2.5)
+  - Zhugeio/Zhugeio (3.2.5)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - FMDB (~> 2.6)
+  - IQKeyboardManager (~> 4.0.0)
+  - JLLogEncoding (~> 0.0.3)
+  - JWT (~> 3.0.0-beta.9)
+  - Masonry (~> 0.6.4)
+  - MJExtension (~> 3.0.10)
+  - PLPlayerKit
+  - PLShortVideoKit
+  - ReactiveCocoa (~> 2.5)
+  - SVProgressHUD (~> 2.2.5)
+  - Zhugeio
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Base64
+    - FMDB
+    - HappyDNS
+    - IQKeyboardManager
+    - JLLogEncoding
+    - JWT
+    - Masonry
+    - MJExtension
+    - PLPlayerKit
+    - PLShortVideoKit
+    - Qiniu
+    - ReactiveCocoa
+    - SVProgressHUD
+    - Zhugeio
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  JLLogEncoding: 8a81b9e29e3e8f613ac2010a7924359be7bb6f1a
+  JWT: 9b5c05abbcc1a0e69c3c91e1655b3387fc7e581d
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  PLPlayerKit: 808684cd063f695f91ef07ec0b1237523b0f111d
+  PLShortVideoKit: 9ec2dd9129f1a0d7184ccc3eda6be1def58d35a9
+  Qiniu: 95e913e7ab91f6c4dff643164e8d66a7f79c5c5e
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Zhugeio: 87c5ec4b2e1783b9837a6ea9ca21818285523bc1
+
+PODFILE CHECKSUM: fc9e9267d69df4fc674c87c6963d852fcd89ce54
+
+COCOAPODS: 1.10.1
